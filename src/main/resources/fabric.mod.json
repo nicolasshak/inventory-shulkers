@@ -18,14 +18,11 @@
 
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
+    "main": [],
+    "client": [
+    	"net.nshak.inventory_shulkers.InventoryShulkersClient"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
-
   "depends": {
     "fabricloader": ">=0.7.4",
     "fabric": "*",
