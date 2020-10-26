@@ -1,24 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "inventory_shulkers",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Inventory Shulkers",
+  "description": "Adds ability to open shulker boxes from an inventory by hovering over the item and pressing R.",
   "authors": [
-    "Me!"
+    "nshak"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/nicolasshak/inventory-shulkers"
   },
 
   "license": "CC0-1.0",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
+  "mixins": [
+    "modid.mixins.json"
+  ],
   "entrypoints": {
-    "main": [],
+    "main": [
+        "net.nshak.inventory_shulkers.InventoryShulkers"
+    ],
     "client": [
     	"net.nshak.inventory_shulkers.InventoryShulkersClient"
     ]
