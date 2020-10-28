@@ -1,9 +1,8 @@
-# Fabric Example Mod
+# Inventory Shulkers
 
-## Setup
+A Minecraft mod that allows shulker boxes to be opened while still in an inventory. Hover over a shulker box and press R to open it.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+### Building
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+1. Clone the repository.
+2. Execute ```gradlew build``` in the cloned repo. 
